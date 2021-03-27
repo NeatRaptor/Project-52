@@ -43,10 +43,12 @@
 
 a:link{
     color:rgb(255, 0, 179);
+    text-decoration: none;
 }
 
 a:visited{
     color:rgb(255, 160, 160);
+    text-decoration: none;
 }
 
 body{
@@ -78,4 +80,8 @@ body{
     justify-content: space-between;
     width:400px;
     font-family: fantasy;
+}
+
+.origami:hover {
+    transform: scale(1.2);
 }
